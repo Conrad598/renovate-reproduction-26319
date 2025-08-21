@@ -5,11 +5,11 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      resolved-ref: "5f9a43fa305e9519d0e476f481b5f6cbd2830543"
+      resolved-ref: "3267e138e3ffc6b78ceec8eefb9b1ffc03b29536"
       tag-pattern: "{{version}}"
       url: "https://github.com/brendan-duncan/archive"
     source: git
-    version: "3.6.1"
+    version: "4.0.2"
   collection:
     dependency: transitive
     description:
@@ -26,6 +26,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.6"
+  ffi:
+    dependency: transitive
+    description:
+      name: ffi
+      sha256: "289279317b4b16eb2bb7e271abccd4bf84ec9bdcbe999e278a94b804f5630418"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.4"
+  meta:
+    dependency: transitive
+    description:
+      name: meta
+      sha256: "23f08335362185a5ea2ad3a4e597f1375e78bce8a040df5c600c8d3552ef2394"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.17.0"
   path:
     dependency: transitive
     description:
@@ -34,6 +50,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+  posix:
+    dependency: transitive
+    description:
+      name: posix
+      sha256: "6323a5b0fa688b6a010df4905a56b00181479e6d10534cecfecede2aa55add61"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.0.3"
   typed_data:
     dependency: transitive
     description:
